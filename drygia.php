@@ -24,10 +24,6 @@ $html = <<<input
 		Här är en länk till mitt MVC - Ramverk, Drygia. (Öppnas i nytt fönster)<br />
 		<a href="PHPMVC/" target="_blank">Drygia</a>
 	</p>
-	<p>
-		Och den här är till CodeIgniter.<br />
-		<a href="CodeIgniter/" target="_blank">CodeIgniter</a>
-	</p>
 </div>
 input;
 
