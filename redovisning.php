@@ -22,6 +22,27 @@ $html = <<<input
 	<h1>Redovisning av kursmomenten</h1>
 	
 	<article>
+		<h2>Kmom04: Modeller för login, användare och grupper </h2>
+		<p>
+			<b>Hur kändes det att jobba med CForm-klassen (den du valde)? </b><br />
+			Lite ovant men det gick snabbare att få till formerna och validera dom än om man skulle ha skrivit dom mera manuellt som vi gjort förut. Antar att man blir mer bekväm med det här upplägget ju mer man arbetar med dom.
+		</p>
+		<p>
+			<b>Har du några tankar kring hur man sparar lösenord? </b><br />
+			Var inte direkt några nyheter för mig med att lösenorden ska hachas och saltas innan dom sparas. Det som var nytt i mos upplägg var nog att han sparade ett unikt salt för varje användare i databasen. Jag har alltid haft saltet i en säkrad fil i PHP koden.
+		</p>
+		<p>
+			<b>Hur känns det att jobba i ramverket när det byggs ut efter hand?</b><br />
+			Tycker att det är lite rörigt att hoppa mellan att bygga på ramverkets kärna och själva applikationen som ska tillämpas med den, men överlag fungerar det väl ok. Antar att det är lite lättare att visa hur dom olika delarna av ramverket fungerar när man varvar dom med applikationen som ska tillämpa dom, men som sagt, det blir lite rörigt.
+		</p>	
+		<p>
+			<b>Något som var extra utmanande med detta avsnitt av tutorialen? </b><br />
+			Det tog ett tag att greppa hur CForm fungerade det var ganska mycket kod att gå igenom och fick gå tillbaka en del när jag gick igenom koden för applikationen för att se vad som egentligen hände. Utöver det var det nog inte så mycket som blev fel förutom diverse småsaker man blev sittande med ett tag, bland annat fick jag något skumt meddelande när jag skulle logga in på en användare efter att ha bytt lösenord till den, men det visade sig att det berodde på att algoritmen man hachade lösenordet med inte hade sparats i databasen, detta på grund av ett stavfel som var lite svårt att upptäcka på grund av det främmande felmeddelandet jag fick.
+		</p>
+		
+	</article>
+	
+	<article>
 		<h2>Kmom03: En gästbok i ditt MVC-ramverk </h2>
 		<p>
 			<b>Vilken uppfattning fick du om CodeIgniter? </b><br />
